@@ -38,7 +38,3 @@ app.post("/api/initiate-payment", async (req, res) => {
     res.status(500).json({ error: "Failed to initiate payment" });
   }
 });
-
-app.listen(8000, () =>
-  console.log("✅ Backend running on http://localhost:8000")
-);
